@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=DynaPuff:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Signika+Negative:wght@300..700&display=swap');
+
+
+.signika-negative-uniquifier {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    font-family: "Signika Negative", sans-serif;
+
+}
+
+main{
+    width: 100%;
+    height: 10%;
+    padding: 1rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.tituleName{
+    margin-left: 95px;
+    margin-top: 20px;
+    font-size: 70px;
+    font-family: "Creepster", system-ui;
+    color: darkorange;
+}
+.start{
+    background-color: rgb(150, 226, 150);
+
+}
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+
+  .search {
+    margin: 2rem auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.search input {
+    padding: 0.8rem 1.5rem;
+    width: 60%;
+    border: 2px solid rgba(182, 231, 91, 0.5);
+    border-radius: 25px;
+    font-size: 1.1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search input:focus {
+    border-color: darkorange;
+}
+
+.search button {
+    padding: 0.8rem 1.5rem;
+    margin-left: 1rem;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search button:hover {
+    background-color: #ff7b00;
+}
+
+#container{
+    width: 15rem;
+    height: auto    ;
+    background: rgba(182, 231, 91, 0.1);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(182, 231, 91, 0.5);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(166, 255, 0, 0.3);
+}
+#container-title{
+    flex-direction: column;
+    padding: 1rem;
+}
+h1 {
+    font-size: 2rem;
+    
+}
+h2 {
+    margin-top: 10px;
+    font-size: 2rem;
+    
+}
+h3 {
+    margin-top: 10px;
+    font-size: 2rem;
+    
+}
+h4{
+    margin-top: 10px;
+    font-size: 2rem;
+    
+}
+img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10px 0 0 10px;
+
+}
+.no-results-message {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: "Creepster", system-ui;
+    color: darkorange;
+}
+
+
